@@ -4,7 +4,7 @@ public class AssertionExample2 {
 	enum Car{
 		TWOWHEEL, FOURWHEEL, NOWHEEL
 		}
-	Car(){
+	private Car(){
 		
 	}
 	public int getDeliveryTimeInDays() {
