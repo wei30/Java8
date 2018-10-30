@@ -4,6 +4,9 @@ public class AssertionExample2 {
 	enum Car{
 		TWOWHEEL, FOURWHEEL, NOWHEEL
 		}
+	Car(){
+		
+	}
 	public int getDeliveryTimeInDays() {
 		Car status = Car.TWOWHEEL;
 	    switch (status) {
