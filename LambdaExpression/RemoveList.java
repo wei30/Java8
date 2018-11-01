@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
+@FunctionalInterface
+interface lambdaEx{
+	public List method3();
+}
 
 public class RemoveList {
 	
